@@ -1,35 +1,31 @@
-# Node with React: Fullstack Web Development, with suggested improvement
+# Node With React Fullstack Web Development Udemy course
 
-Code from the
-[Node with React: Fullstack Web Development course by Stephen Grider](https://www.udemy.com/node-with-react-fullstack-web-development/learn/v4/content)
+> source code for the Node With React Fullstack Web Development Udemy course
 
-## Differences from Stephen's progress
+## Build Setup
 
-See README at [My original repository](https://github.com/JulianNicholls/Node-with-React)
+# install server dependencies
 
-## Suggested improvements
+$ npm install # Or yarn install
 
-I'm going to implement some or all of the improvements suggested by Stephen in Lecture 195.
+# install clients dependencies
 
-### Replace Materialize with Bootstrap
+$ cd client
 
-Change to use Bootstrap. This is not one of his suggestions, but I just prefer it.
+$ npm install # Or yarn install
 
-### Allow the user to save a survey for later
+# execute it
 
-* Have options to save, save and send, edit and send / send again
+$ npm run dev
 
-### Survey Cards
+*   server is loaded at localhost:5000
 
-* Colour the yes and no
-* Add something like a chart for yes and no.
-* Add the last responded date.
-* Sort by number of votes, date sent, last responded date, and sent / unsent
+*   client is loaded at localhost:3000
 
-### Allow for deleting surveys
+*   it executes both server and client at the same time
 
-This is arguably pointless at the moment because all surveys have been sent
-out already. It becomes more important when it is possible to create a survey
-for later sending that you then decide not to send.
+# Before executing it, setting credentials and variables must be updated
 
-### Allow the user to specify the from field
+1) Rename config/dev.example.js to dev.js
+
+2) Update your own values
