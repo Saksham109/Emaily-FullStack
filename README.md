@@ -1,20 +1,16 @@
-# Node With React Fullstack Web Development Udemy course
+# Build Setup
 
-> source code for the Node With React Fullstack Web Development Udemy course
-
-## Build Setup
-
-# install server dependencies
+## install server dependencies
 
 $ npm install # Or yarn install
 
-# install clients dependencies
+## install clients dependencies
 
 $ cd client
 
 $ npm install # Or yarn install
 
-# execute it
+## execute it
 
 $ npm run dev
 
@@ -24,7 +20,7 @@ $ npm run dev
 
 *   it executes both server and client at the same time
 
-# Before executing it, setting credentials and variables must be updated
+## Before executing it, setting credentials and variables must be updated
 
 1) Rename config/dev.example.js to dev.js
 
