@@ -26,7 +26,7 @@ $ npm run dev
 
 2) Update your own values
 
-# Snapshots
+# Snapshots..
 
 ![HomePage](https://github.com/saku1331/E_Commerce_Store/assets/131768879/3ee6766e-cace-4b0c-bfaa-97ccfa546e8a)
 
