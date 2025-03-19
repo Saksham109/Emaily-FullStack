@@ -2,6 +2,7 @@ const keys   = require('../../config/keys');
 
 module.exports = (survey) => {
   return `
+     <>
     <html>
       <body style="background: #B3E5FC; color: #01579B">
         <div style="text-align: center">
@@ -20,5 +21,6 @@ module.exports = (survey) => {
         </div>
       </body>
     </html>
+    </>
   `;
 };
