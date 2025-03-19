@@ -4,6 +4,9 @@
 
 $ npm install # Or yarn install
 
+$ npm install concurrently --save-dev
+$ npm install nodemon --save-dev
+
 ## install clients dependencies
 
 $ cd client

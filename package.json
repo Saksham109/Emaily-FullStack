@@ -14,7 +14,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run webhook\"",
     "dev-no-tunnel": "concurrently \"npm run server\" \"npm run client\"",
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client",
-    "webhook": "./sendgrid_webhook.sh"
+    "webhook": "powershell.exe -ExecutionPolicy Bypass -File sendgrid_webhook.ps1"
   },
   "repository": {
     "type": "git",
@@ -42,5 +42,9 @@
     "react-bootstrap": "^0.31.2",
     "sendgrid": "^5.2.0",
     "stripe": "^11.1.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9"
   }
 }
