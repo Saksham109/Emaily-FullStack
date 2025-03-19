@@ -8,6 +8,7 @@ require('./models/User');
 require('./models/Survey');
 require('./services/passport');
 
+const jsons= require('./services/jsons');
 const authRoutes    = require('./routes/auth');
 const billingRoutes = require('./routes/billing');
 const surveysRoutes = require('./routes/surveys');
